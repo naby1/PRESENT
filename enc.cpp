@@ -123,7 +123,7 @@ int main() {
 	char flag[256] = "";
 	cin >> flag;
 	int flaglen = strlen(flag);
-	char key[81] = "TNESERPUQH";    //your key
+	char key[81] = "TNESERPUQH";    //your key 80bits 10bytes
 
 	encrypt(flag, key, flaglen);
 	system("pause");
